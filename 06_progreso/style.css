@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.contenedor {
+    margin: 30px;
+  height: 300px;
+  border: 1px solid grey;
+  border-radius: 20px;
+}
+
+.barra {
+  height: 300px;
+  background-color: rosybrown;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+p {
+    padding: 30px;
+    margin: 10px;
+    font-size: 30px;
+    background-color: grey;
+    border: 1px solid gray;
+    border-radius: 60px;
+}
